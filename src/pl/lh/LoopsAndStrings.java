@@ -33,7 +33,8 @@ public class LoopsAndStrings {
                 System.out.println();
             }
         }else {
-            System.out.println("Number of Cycles must be between 1 and 10... ");
+            System.out.println("Number of Cycles must be between 1 and 10..." +
+                    "Please start again. ");
         }
         scan.close();
         /* Enter your code here. Read input from STDIN. Print output to STDOUT. Your class should be named Solution. */
