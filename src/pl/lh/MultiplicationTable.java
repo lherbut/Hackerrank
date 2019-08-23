@@ -15,7 +15,7 @@ public class MultiplicationTable {
     private static final Scanner scanner = new Scanner(System.in);
 
     public static void main(String[] args) {
-        System.out.println("Program count multiplication table 1-10 for Your number" +
+        System.out.println("Program count multiplication table from 1 to 10 for choosen number" +
                 "\n Please enter Your number:  ");
         int n = scanner.nextInt();
         int result;
