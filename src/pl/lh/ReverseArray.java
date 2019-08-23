@@ -18,7 +18,7 @@ public class ReverseArray {
                 "\n Please enter array length: ");
         int n = scanner.nextInt();
         scanner.skip("(\n|[\n\u2028\u2029\u0085])?");
-        System.out.println("Please enter in line with spaces Your digits: ");
+        System.out.println("Please enter in line with spaces Your array: ");
 
         int[] arr = new int[n];
 
