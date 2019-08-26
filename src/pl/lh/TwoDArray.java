@@ -10,7 +10,7 @@ public class TwoDArray {
 
     public static void main(String[] args) {
         System.out.println("Program will count the maximum 'hourglass' sum in 2D array \n" +
-                "Please enter Your 6x6 array");
+                "Please enter Your 6x6 array: ");
         Scanner in = new Scanner(System.in);
         int arr[][] = new int[6][6];
         for(int i=0; i < 6; i++){
